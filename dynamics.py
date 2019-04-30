@@ -1,6 +1,6 @@
 # Physics 91SI
-# Spring 2018
-# Lab 8
+# Spring 2019
+# Lab 9
 
 # Modules you won't need
 import sys
