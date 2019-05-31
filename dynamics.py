@@ -14,15 +14,16 @@ import particle
 # TODO: Implement this function
 def init_molecule():
     """Create Particles p1 and p2 inside boundaries and return a molecule
-    connecting them"""
-
-    pass
+    connecting them""" 
+    p1 = Particle(5, 6) 
+    p2 = Particle(5, 6) 
+    mol = Molecule(p1.pos, p1.m, p2.pos, p2.m, 3, 4)  
+    return mol 
 
 
 # TODO: Implement this function
-def time_step(dt, mol):
+def time_step(dt, mol): 
     """Sets new positions and velocities of the particles attached to mol"""
-    
     pass
 
 
